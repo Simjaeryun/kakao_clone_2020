@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
 }
 
 .screen_header_title {
@@ -10,6 +11,10 @@
   font-weight: 600;
 }
 
-.screent_header_icons span {
+.screen_header_icons span {
   margin-left: 25px;
+}
+
+.friends_screen {
+  padding: 0px var(--horizontal-space);
 }
